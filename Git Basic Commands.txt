@@ -129,4 +129,8 @@ A great online free course offered by Git to continue learning: http://gitreal.c
 -----------------------------------------------------------
 
 
+When pulling the first time from a remote repo and is yours, you don't have to clone its contents. Simply do this:
+> git init (on the Directory where filess will be pushed to)
+> git remote add origin https://github.com/Sejopc/<Repo_name>.git
+> git pull origin master
 
